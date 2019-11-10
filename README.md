@@ -18,7 +18,8 @@ A cli utillity for hibernating Apple devices
 - Make sure you have the IOKit headers and libkern in your iOS SDK.
 ```bash 
 # To copy the required headers if you don't have them
-sudo cp -r /Applications/Xcode.app/Contents/Developer/Platforms/MacOS.platform/Developer/SDKs/macOS.sdk/System/Library/Frameworks/IOKit.framework/Headers /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers && sudo cp -r /Applications/Xcode.app/Contents/Developer/Platforms/MacOS.platform/Developer/SDKs/macOS.sdk/usr/include/libkern /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libkern```  
+sudo cp -r /Applications/Xcode.app/Contents/Developer/Platforms/MacOS.platform/Developer/SDKs/macOS.sdk/System/Library/Frameworks/IOKit.framework/Headers /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework/Headers && sudo cp -r /Applications/Xcode.app/Contents/Developer/Platforms/MacOS.platform/Developer/SDKs/macOS.sdk/usr/include/libkern /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libkern
+```  
 - Run `make` in the directory of this repo.
 - If you're on macOS you can use the tool now. Even non-root users can execute it :)
 - If you're on iOS you'll have to codesign it: ```bash ldid -S deepsleep``` will do.
