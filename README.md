@@ -1,5 +1,5 @@
 # DeepSleep
-A cli utillity for hibernating Apple devices
+A commandline tool for hibernating your Apple devices (macOS / tvOS / watchOS / iOS / iPadOS)
 
 ## Why
 - Initially found a cool factory tool for it, thought it would help reserve battery to aid in preserving tetherboot longer.
