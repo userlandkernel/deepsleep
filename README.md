@@ -16,7 +16,7 @@ A cli utillity for hibernating Apple devices
 
 ## How to build it
 - Make sure you have the IOKit headers and libkern in your iOS SDK, you can copy them from the macOS SDK.
-- run make in the directory of this repo.
+- Run 'make' in the directory of this repo.
 - If you're on macOS you can use the tool now. Even non-root users can execute it :)
 - If you're on iOS you'll have to codesign it: ldid -S deepsleep will do.
 - If you're on iOS you must elevate to root privileges for the command to work.
