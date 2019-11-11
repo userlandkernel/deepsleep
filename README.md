@@ -5,7 +5,7 @@ A commandline tool for hibernating your Apple devices (macOS / tvOS / watchOS / 
 - Initially found a cool factory tool for it, thought it would help reserve battery to aid in preserving tetherboot longer.
 - It's very minimal code but an easy asset for beginners learning about IOKit
 - It's multiplatform (both iOS, watchOS, tvOS and macOS) and a commandline tool that didn't exist yet.
-- It was fun to reverse engineer a facory tool
+- It was fun to reverse engineer a factory tool
 
 ## How to use it
 - Turn on airplane mode so the device will not wake up by incoming calls or text messages
