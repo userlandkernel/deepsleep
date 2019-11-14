@@ -30,8 +30,7 @@ int main(int argc, char *argv[]) {
   err = IORegistryEntrySetCFProperty(ref, CFSTR("System Boot Complete"), kCFBooleanTrue);
   
   if(KERN_SUCCESS != err) {
-    printf("Failed to mark system boot sequence as completed.\n");
-    return KERN_FAILURE;
+    printf("Failed to mark system boot sequence as completed. (Not mandatory), continuing...\n");
   }
   
   // Get a powermanagement reference for the system
