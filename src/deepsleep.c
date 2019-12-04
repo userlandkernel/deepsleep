@@ -12,7 +12,7 @@
 #include <IOKit/pwr_mgt/IOPMLib.h>
 
 
-int main(int argc, char *argv[]) {
+int main() {
 
   mach_port_t master = kIOMasterPortDefault;
   kern_return_t err = KERN_SUCCESS;
