@@ -3,6 +3,7 @@ macos:
 
 ios:
 	xcrun -sdk iphoneos clang -arch arm64 src/deepsleep.c -o deepsleep_arm64 -framework IOKit -framework CoreFoundation
+	ldid -S deepsleep_arm64
 
 install:
 	make macos
